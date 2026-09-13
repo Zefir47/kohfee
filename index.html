@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Kohfee — головна</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">KOHFEE</div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Головна</a></li>
+        <li><a href="promo.html">Акції</a></li>
+        <li><a href="delivery.html">Доставка</a></li>
+        <li><a href="reviews.html">Відгуки</a></li>
+        <li><a href="about.html">Про нас</a></li>
+      </ul>
+    </nav>
+    <div class="header-icons">
+      <a href="profile.html">Профіль</a>
+      <a href="cart.html" class="cart-icon">Кошик <span class="cart-count" id="cart-count">2</span></a>
+    </div>
+  </div>
+</header>
+
+<div class="hero">
+  <h1>KOHFEE</h1>
+  <p>Свіжообсмажена кава для дому та офісу</p>
+</div>
+
+<div class="container">
+  <h2 class="section-title">Каталог</h2>
+  <div class="grid">
+
+    <div class="card">
+      <div class="card-image"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><ellipse cx="32" cy="32" rx="17" ry="23" transform="rotate(30 32 32)"/><path d="M22 21c6 5 6 17 0 22"/></svg></div>
+      <div class="card-body">
+        <h3>Ефіопія Sidamo</h3>
+        <span class="price">320 грн</span>
+        <a href="product.html" class="btn btn-outline">Детальніше</a>
+        <button onclick="addToCart('Ефіопія Sidamo')">Купити</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 22h28l3 29a4 4 0 0 1-4 4H19a4 4 0 0 1-4-4l3-29Z"/><path d="M24 22v-4a8 8 0 0 1 16 0v4"/><rect x="27" y="30" width="10" height="8" rx="1"/></svg></div>
+      <div class="card-body">
+        <h3>Колумбія Supremo</h3>
+        <span class="price">290 грн</span>
+        <a href="product.html" class="btn btn-outline">Детальніше</a>
+        <button onclick="addToCart('Колумбія Supremo')">Купити</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><ellipse cx="32" cy="32" rx="17" ry="23" transform="rotate(30 32 32)"/><path d="M22 21c6 5 6 17 0 22"/></svg></div>
+      <div class="card-body">
+        <h3>Бразилія Santos</h3>
+        <span class="price">260 грн</span>
+        <a href="product.html" class="btn btn-outline">Детальніше</a>
+        <button onclick="addToCart('Бразилія Santos')">Купити</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 22h28l3 29a4 4 0 0 1-4 4H19a4 4 0 0 1-4-4l3-29Z"/><path d="M24 22v-4a8 8 0 0 1 16 0v4"/><rect x="27" y="30" width="10" height="8" rx="1"/></svg></div>
+      <div class="card-body">
+        <h3>Гватемала Antigua</h3>
+        <span class="price">340 грн</span>
+        <a href="product.html" class="btn btn-outline">Детальніше</a>
+        <button onclick="addToCart('Гватемала Antigua')">Купити</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 24h30v14a15 15 0 0 1-15 15c-8 0-15-7-15-15V24Z"/><path d="M44 26h4a7 7 0 0 1 0 14h-4"/><path d="M21 16c0-3 3-3 3-6M29 16c0-3 3-3 3-6M37 16c0-3 3-3 3-6" stroke-width="2"/></svg></div>
+      <div class="card-body">
+        <h3>Еспресо Бленд</h3>
+        <span class="price">250 грн</span>
+        <a href="product.html" class="btn btn-outline">Детальніше</a>
+        <button onclick="addToCart('Еспресо Бленд')">Купити</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 22h28l3 29a4 4 0 0 1-4 4H19a4 4 0 0 1-4-4l3-29Z"/><path d="M24 22v-4a8 8 0 0 1 16 0v4"/><rect x="27" y="30" width="10" height="8" rx="1"/></svg></div>
+      <div class="card-body">
+        <h3>Різдвяний Бленд</h3>
+        <span class="price">300 грн</span>
+        <a href="product.html" class="btn btn-outline">Детальніше</a>
+        <button onclick="addToCart('Різдвяний Бленд')">Купити</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><ellipse cx="32" cy="32" rx="17" ry="23" transform="rotate(30 32 32)"/><path d="M22 21c6 5 6 17 0 22"/></svg></div>
+      <div class="card-body">
+        <h3>Кенія AA</h3>
+        <span class="price">380 грн</span>
+        <a href="product.html" class="btn btn-outline">Детальніше</a>
+        <button onclick="addToCart('Кенія AA')">Купити</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 24h30v14a15 15 0 0 1-15 15c-8 0-15-7-15-15V24Z"/><path d="M44 26h4a7 7 0 0 1 0 14h-4"/><path d="M21 16c0-3 3-3 3-6M29 16c0-3 3-3 3-6M37 16c0-3 3-3 3-6" stroke-width="2"/></svg></div>
+      <div class="card-body">
+        <h3>Декаф Колумбія</h3>
+        <span class="price">310 грн</span>
+        <a href="product.html" class="btn btn-outline">Детальніше</a>
+        <button onclick="addToCart('Декаф Колумбія')">Купити</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <div class="brand">KOHFEE</div>
+  <div>+38 (099) 111 22 33 · support@kohfee.com</div>
+  <div>м. Київ, вул. Кавова, 12</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

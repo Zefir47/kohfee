@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Kohfee — відгуки</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">KOHFEE</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="promo.html">Акції</a></li>
+        <li><a href="delivery.html">Доставка</a></li>
+        <li><a href="reviews.html" class="active">Відгуки</a></li>
+        <li><a href="about.html">Про нас</a></li>
+      </ul>
+    </nav>
+    <div class="header-icons">
+      <a href="profile.html">Профіль</a>
+      <a href="cart.html" class="cart-icon">Кошик <span class="cart-count" id="cart-count">2</span></a>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <h2 class="section-title">Відгуки</h2>
+  <div class="two-col">
+
+    <div class="box">
+      <h3 style="margin-top:0;">Залишити відгук</h3>
+      <label for="rname">Ім'я</label>
+      <input type="text" id="rname" placeholder="Ваше ім'я">
+      <label for="rtext">Відгук</label>
+      <textarea id="rtext" rows="4" placeholder="Ваш коментар"></textarea>
+      <label>Оцінка</label>
+      <div class="stars" style="margin-bottom:12px;">★★★★★</div>
+      <button onclick="alert('Дякуємо за відгук (демо)')">Залишити відгук</button>
+    </div>
+
+    <div class="box">
+      <div class="review">
+        <strong>Олександра</strong> <span class="stars">★★★★★</span>
+        <p style="font-size:14px; color:var(--muted);">Дуже смачна Ефіопія, аромат на всю кухню.</p>
+      </div>
+      <div class="review">
+        <strong>Артем</strong> <span class="stars">★★★★☆</span>
+        <p style="font-size:14px; color:var(--muted);">Доставка трохи затрималась, але кава чудова.</p>
+      </div>
+      <div class="review" style="border-bottom:none;">
+        <strong>Марія</strong> <span class="stars">★★★★★</span>
+        <p style="font-size:14px; color:var(--muted);">Замовляю щомісяця, якість стабільна.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <div class="brand">KOHFEE</div>
+  <div>+38 (099) 111 22 33 · support@kohfee.com</div>
+  <div>м. Київ, вул. Кавова, 12</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

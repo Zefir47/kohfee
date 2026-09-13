@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Kohfee — профіль</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">KOHFEE</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="promo.html">Акції</a></li>
+        <li><a href="delivery.html">Доставка</a></li>
+        <li><a href="reviews.html">Відгуки</a></li>
+        <li><a href="about.html">Про нас</a></li>
+      </ul>
+    </nav>
+    <div class="header-icons">
+      <a href="profile.html" class="active">Профіль</a>
+      <a href="cart.html" class="cart-icon">Кошик <span class="cart-count" id="cart-count">2</span></a>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <h2 class="section-title">Мій профіль</h2>
+  <div class="two-col">
+
+    <div class="box">
+      <p><strong>Ім'я:</strong> Іван Ткаченко</p>
+      <p><strong>Пошта:</strong> ivan@example.com</p>
+      <p><strong>Телефон:</strong> +38 (073) 777 77 77</p>
+      <button class="btn-outline">Редагувати дані</button>
+
+      <h3>Адреса доставки</h3>
+      <p>м. Київ, проспект Незалежності, 45</p>
+      <button class="btn-outline">Змінити адресу</button>
+    </div>
+
+    <div class="box">
+      <h3 style="margin-top:0;">Історія замовлень</h3>
+      <table>
+        <thead><tr><th>№</th><th>Дата</th><th>Сума</th><th>Статус</th></tr></thead>
+        <tbody>
+          <tr><td>#0285</td><td>02.09.2026</td><td>1048 грн</td><td><span class="status">Доставлено</span></td></tr>
+          <tr><td>#0258</td><td>19.08.2026</td><td>340 грн</td><td><span class="status">Доставлено</span></td></tr>
+          <tr><td>#0051</td><td>03.08.2026</td><td>790 грн</td><td><span class="status">Скасовано</span></td></tr>
+        </tbody>
+      </table>
+      <button class="btn-outline">Повторити замовлення</button>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  <div class="brand">KOHFEE</div>
+  <div>+38 (099) 111 22 33 · support@kohfee.com</div>
+  <div>м. Київ, вул. Кавова, 12</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
